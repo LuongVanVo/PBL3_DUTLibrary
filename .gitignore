@@ -1,0 +1,28 @@
+appsettings.json
+appsettings.Development.json
+.env
+
+# Visual Studio files
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.tmp
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains
+.idea/
