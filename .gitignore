@@ -26,3 +26,6 @@ bld/
 
 # JetBrains
 .idea/
+
+# ignore wwwroot
+wwwroot/
