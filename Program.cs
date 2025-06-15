@@ -47,6 +47,7 @@ builder.Services.AddHttpContextAccessor();
 //        options.LoginPath = "/Account/Login";
 //        options.AccessDeniedPath = "/Account/Login";
 //    });
+//
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
