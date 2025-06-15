@@ -4,7 +4,7 @@
 *.js linguist-language=JavaScript
 
 # Loại trừ files khỏi thống kê ngôn ngữ
-wwwroot/* linguist-vendored
+wwwroot/** linguist-vendored
 libs/* linguist-vendored
 *.min.js linguist-generated=true
 
