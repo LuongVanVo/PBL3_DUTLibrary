@@ -3,8 +3,6 @@
 # Loại trừ file HTML khỏi thống kê (vì cshtml cũng được coi là HTML)
 *.cshtml linguist-vendored
 *.html linguist-vendored
-*.css linguist-vendored
-*.js linguist-vendored
 *.json linguist-vendored
 
 # Loại trừ thư mục front-end
