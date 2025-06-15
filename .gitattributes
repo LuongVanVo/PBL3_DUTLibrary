@@ -1,7 +1,8 @@
 *.cs linguist-language=C#
 
 # Loại trừ file HTML khỏi thống kê (vì cshtml cũng được coi là HTML)
-# *.cshtml linguist-vendored
+*.cshtml linguist-detectable=false
+*.html linguist-detectable=false
 
 # Loại trừ thư mục front-end
 wwwroot/** linguist-vendored
