@@ -1,22 +1,24 @@
-# Ngôn ngữ
 *.cs linguist-language=C#
-*.cshtml linguist-language=HTML
-*.js linguist-language=JavaScript
 
-# Loại trừ files khỏi thống kê ngôn ngữ
+# Loại trừ file HTML khỏi thống kê (vì cshtml cũng được coi là HTML)
+*.cshtml linguist-vendored
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+*.json linguist-vendored
+
+# Loại trừ thư mục front-end
 wwwroot/** linguist-vendored
-libs/* linguist-vendored
+libs/** linguist-vendored
+
+# Xử lý các file sinh tự động
 *.min.js linguist-generated=true
 
-# Line ending handling
+# Định dạng kết thúc dòng
 *.cs text eol=crlf
 *.sh text eol=lf
 
-# Git LFS tracking
-*.rar filter=lfs diff=lfs merge=lfs -text
-*.zip filter=lfs diff=lfs merge=lfs -text
-
-# Binary files
+# File nhị phân
 *.dll binary
 *.exe binary
 *.jpg binary
